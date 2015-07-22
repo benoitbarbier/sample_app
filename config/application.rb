@@ -15,6 +15,13 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+#modif benoit
+#config.generators do |g|
+#  g.test_framework  :rspec
+#end
+#fin modif benoit
+
+
 module SampleApp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
